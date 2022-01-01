@@ -1,0 +1,121 @@
+body{
+	background: #0a192f;
+	font-family: Muli,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8892b0;
+    -webkit-font-smoothing: antialiased;
+}
+img{
+    filter: brightness(.5);
+}
+img:hover{
+    filter: brightness(1.0);
+}
+.AfterScroll{
+    height: 100px; /*Whatever you want*/
+    width: 100%; /*Whatever you want*/
+    display: block;
+    margin-top: 200px;
+    margin-bottom:100px;
+}
+#logo-4{
+    margin-left: 250px; 
+    margin-top: -30px;
+}
+.sm-screen-img{
+    filter: brightness(1.0);
+}
+#btn-style{
+    background-color: #62fad6;
+}
+#title-style{
+    font-size: clamp(20px, 8vw, 40px);
+    color: #62fad6;
+
+}
+#kaiamka{
+    font-weight: 700;
+    font-size: clamp(40px, 8vw, 60px);
+}
+.brand-name-2{
+    color: #ccd6f6;
+    font-weight: 700;
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 80px);
+}
+#kprolenamekp{
+    font-size: 30px;
+    color: #8892b0;
+}
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding-left: 20px;
+    margin: 20px 0px 0px;
+    font-size: 20px;
+}
+.kpprojectkp{
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+
+}
+.title-border {
+    color: #ccd6f6;
+    border-bottom: 2px solid;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 70px;
+}
+.KPprojectnamepK{
+    color: #ccd6f6;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.KPprojectnamepK:hover{
+    color: #939fbc;
+}
+.KPprojectdesPK{
+    font-size: 19px;
+    color: #939fbc;
+
+}
+
+.pfgskillsfpg{
+    font-size: 12px;
+}
+.list-item{
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.project-tech{
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+.project-tech{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: .89rem;
+    margin-top: auto;
+    color: #939fbc;
+}
+#project-image{
+    width: 68rem; 
+    cursor: pointer; 
+}
+.social{
+    margin-right: 20px;
+}
+
+.card{
+    background-color: #020c1bb3!important;
+}
